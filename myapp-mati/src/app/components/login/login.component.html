@@ -1,0 +1,13 @@
+<p>
+  login works!
+</p>
+
+<form (submit)="onLoginSubmit()">
+  Correo:<br>
+  <input type="text" [(ngModel)]="email" name="email" value="Mickey">
+  <br>
+  Contraseña:<br>
+  <input type="text" [(ngModel)]="password" name="password" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 

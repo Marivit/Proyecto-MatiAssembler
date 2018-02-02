@@ -1,0 +1,22 @@
+<p>
+  register works!
+</p>
+
+<form (submit)="onRegisterSubmit()">
+  Nombre:<br>
+  <input type="text" [(ngModel)]="name" name="name" value="Mickey">
+  <br>
+  Apellido:<br>
+  <input type="text" [(ngModel)]="lastname" name="lastname" value="Mouse">
+  <br>
+  Correo:<br>
+  <input type="text" [(ngModel)]="email" name="email" value="Mouse">
+  <br>
+  Contraseña:<br>
+  <input type="text" [(ngModel)]="password" name="password" value="Mouse">
+  <br>
+  Rol:<br>
+  <input type="text" [(ngModel)]="rol" name="rol" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
